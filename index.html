@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonidah Moraa Nyabuto | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="theme-toggle-container">
+        <span>Light</span>
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider round"></span>
+        </label>
+        <span>Dark</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="myjourney.html">My Journey</a>
+        <a href="projects.html">Projects</a>
+        <a href="contactme.html">Contact</a>
+    </nav>
+
+    <section id="home">
+        <div class="hero">
+            <img src="profile.png" alt="Leonidah Nyabuto" class="profile-pic">
+            
+            <h1>Hello, I'm <span id="typing-name"></span></h1>
+            <h3> <span id="typing-role"></span></h3>
+            
+            <p>Explore my journey and skills below!</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I have specialized in ICT Support, blending technical troubleshooting with creative web development.</p>
+        <a href="about.html" class="read-more-btn">Professional Journey</a>
+    </section>
+
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-container">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML <span>90%</span></h3>
+                <div class="progress"><span style="--skill-width: 90%; width: 90%;"></span></div>
+            </div>
+            
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS <span>95%</span></h3>
+                <div class="progress"><span style="--skill-width: 95%; width: 95%;"></span></div>
+            </div>
+            
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript <span>70%</span></h3>
+                <div class="progress"><span style="--skill-width: 70%; width: 70%;"></span></div>
+            </div>
+        </div>
+    </section>
+    <button id="scrollToTop" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+    <footer>
+        <p>&copy; 2026 Leonidah Nyabuto | Built with Passion</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
